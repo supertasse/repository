@@ -1,14 +1,15 @@
 
 public class Passwortchecker {
+		
+	static	boolean sonderzeichen;
+	static	boolean groﬂbuchstabe;
+	static	boolean lang;
+	static	boolean zahl;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		boolean sonderzeichen;
-		boolean groﬂbuchstabe;
-		boolean lang;
-		boolean zahl;
-
+		
 		
 		zuCharArray("Passwort123!");
 		
@@ -67,7 +68,7 @@ public class Passwortchecker {
 					
 				
 			
-			if (sonderzeichen==true && groﬂbuchstabe ==true && zahl==true && lang==true)
+			if (sonderzeichen == true && groﬂbuchstabe ==true && zahl==true && lang==true)
 	{
 		System.out.println("Passwort ist nicht sicher");
 		}
